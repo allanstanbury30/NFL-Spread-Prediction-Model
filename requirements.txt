@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+nflreadpy
+pyarrow
+tzdata; platform_system == "Windows"
+
+# Optional: required only when running the XGBoost model path
+xgboost
