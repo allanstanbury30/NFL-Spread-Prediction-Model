@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+Archive/
+Experiments/
+
+data/*
+!data/team_continuity_2018_2026.csv
