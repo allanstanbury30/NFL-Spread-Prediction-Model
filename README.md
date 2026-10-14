@@ -1,3 +1,11 @@
+## Summary
+
+> I built an NFL point-spread prediction system in Python that uses play-by-play data to calculate opponent-adjusted EPA (an advanced football metric that measures how much value a team or player adds to their chances of scoring, while removing outside noise like the strength of the opponent or random luck.) and success-rate metrics, combines those with organizational continuity, rest, travel, divisional context, and sportsbook market data, and feeds them into a regularized Ridge regression model. I designed the backtesting chronologically to prevent data leakage and built production workflows for evaluating model edge against the betting market.
+
+## Disclaimer
+
+This project is for educational, analytical, and portfolio purposes. Historical model performance does not guarantee future results.
+
 # NFL Spread Prediction Model
 
 An end-to-end NFL point-spread prediction and betting analytics project built in Python.
@@ -324,11 +332,3 @@ The live V6 workflow can be made fully reproducible after its remaining producti
 - nflreadpy / nflverse
 - PyArrow
 - Git / GitHub
-
-## Interview Summary
-
-> I built an NFL point-spread prediction system in Python that uses play-by-play data to calculate opponent-adjusted EPA and success-rate metrics, combines those with organizational continuity, rest, travel, divisional context, and sportsbook market data, and feeds them into a regularized Ridge regression model. I designed the backtesting chronologically to prevent data leakage and built production workflows for evaluating model edge against the betting market.
-
-## Disclaimer
-
-This project is for educational, analytical, and portfolio purposes. Historical model performance does not guarantee future results.
